@@ -64,6 +64,7 @@ def insert_row_snowflake(new_fruit):
   
 my_added_fruit = streamlit.text_input('What fruit would you like to add?')
 my_data_rows = insert_row_snowflake(my_added_fruit)
+streamlit.write(my_data_rows)
 
 
 
